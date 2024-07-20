@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Programming Polyglot</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content on Programming Polyglot</description>
+    <generator>Hugo -- 0.126.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jul 2024 13:00:38 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analyzing E-Commerce Customer Behaviour and Churn</title>
+      <link>http://localhost:1313/blog/posts/ecommerce-churn-prediction/</link>
+      <pubDate>Sat, 20 Jul 2024 13:00:38 -0400</pubDate>
+      <guid>http://localhost:1313/blog/posts/ecommerce-churn-prediction/</guid>
+      <description>In this post, I explore and analyze some e-commerce customer data by identifying patterns in customer satisfaction and churn.
+The dataset used for this analysis includes information on customer demographics, purchasing behavior, and satisfaction scores. Key features include:
+CustomerID: Unique identifier for each customer.
+Gender: Gender of the customer (Male/Female).
+MaritalStatus: Marital status of the customer (Married/Single/Divorced).
+PreferedOrderCat: Preferred order category of the customer (e.g., Fashion, Grocery, Mobile).
+SatisfactionScore: Satisfaction score given by the customer (1 to 5).</description>
+    </item>
+    <item>
+      <title>ChatGPT vs Claude: Ambiguity Resolution (Part I)</title>
+      <link>http://localhost:1313/blog/posts/syntactic-ambiguity/</link>
+      <pubDate>Tue, 28 May 2024 12:12:38 -0400</pubDate>
+      <guid>http://localhost:1313/blog/posts/syntactic-ambiguity/</guid>
+      <description>&amp;ldquo;One morning I shot an elephant in my pajamas.&amp;rdquo; - Groucho Marx Syntactic ambiguities occur when a sentence can have multiple meanings. For example, consider the sentence from the famous Groucho Marx joke above. This sentence is ambiguous because it&amp;rsquo;s unclear whether the elephant was in pajamas or Groucho Marx was in pajamas while shooting the elephant. If you&amp;rsquo;re curious which interpretation Groucho Marx meant, here is the full quote: &amp;ldquo;One morning I shot an elephant in my pajamas.</description>
+    </item>
+  </channel>
+</rss>
