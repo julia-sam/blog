@@ -1,8 +1,7 @@
 +++
 title = 'ChatGPT vs Claude: Ambiguity Resolution (Part I)'
 date = 2024-05-28T12:12:38-04:00
-draft = true
-sectionPagesMenu = 'main'
+draft = false
 +++
 ![Ambiguous images](/ambiguous-img.jpeg)
 
