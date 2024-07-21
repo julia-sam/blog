@@ -3,7 +3,7 @@ title = 'ChatGPT vs Claude: Ambiguity Resolution (Part I)'
 date = 2024-05-28T12:12:38-04:00
 draft = false
 +++
-![Ambiguous images](/ambiguous-img.jpeg)
+![Ambiguous images](./ambiguous-img.jpeg)
 
 ### *"One morning I shot an elephant in my pajamas." - Groucho Marx*
 
