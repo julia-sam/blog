@@ -1,0 +1,6 @@
+params:
+  environment: development
+
+services:
+  googleAnalytics:
+    ID: G-SSSSSSSSS

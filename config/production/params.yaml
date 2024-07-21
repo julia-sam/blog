@@ -1,0 +1,7 @@
+params:
+  environment: "production"
+  baseURL: https://yulia-samoilovich.github.io/blog/
+
+services:
+  googleAnalytics:
+    ID: G-PPPPPPPPP
