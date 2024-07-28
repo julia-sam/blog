@@ -9,11 +9,9 @@
 <meta name="keywords" content="">
 <meta name="description" content="In this post, I explore and analyze some e-commerce customer data by identifying patterns in customer satisfaction and churn.
 The dataset used for this analysis includes information on customer demographics, purchasing behavior, and satisfaction scores. Key features include:
-CustomerID: Unique identifier for each customer.
-Gender: Gender of the customer (Male/Female).
-MaritalStatus: Marital status of the customer (Married/Single/Divorced).
-PreferedOrderCat: Preferred order category of the customer (e.g., Fashion, Grocery, Mobile).
-SatisfactionScore: Satisfaction score given by the customer (1 to 5).">
+CustomerID Unique identifier for each customer. Gender
+Gender of the customer (Male/Female). MaritalStatus
+Marital status of the customer (Married/Single/Divorced). PreferedOrderCat Preferred order category of the customer (e.g., Fashion, Grocery, Mobile). SatisfactionScore Satisfaction score given by the customer (1 to 5).">
 <meta name="author" content="">
 <link rel="canonical" href="https://yulia-samoilovich.github.io/blog/posts/ecommerce-churn-prediction/">
 <link crossorigin="anonymous" href="/blog/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
@@ -67,11 +65,9 @@ SatisfactionScore: Satisfaction score given by the customer (1 to 5).">
 <meta property="og:title" content="Analyzing E-Commerce Customer Behaviour and Churn" />
 <meta property="og:description" content="In this post, I explore and analyze some e-commerce customer data by identifying patterns in customer satisfaction and churn.
 The dataset used for this analysis includes information on customer demographics, purchasing behavior, and satisfaction scores. Key features include:
-CustomerID: Unique identifier for each customer.
-Gender: Gender of the customer (Male/Female).
-MaritalStatus: Marital status of the customer (Married/Single/Divorced).
-PreferedOrderCat: Preferred order category of the customer (e.g., Fashion, Grocery, Mobile).
-SatisfactionScore: Satisfaction score given by the customer (1 to 5)." />
+CustomerID Unique identifier for each customer. Gender
+Gender of the customer (Male/Female). MaritalStatus
+Marital status of the customer (Married/Single/Divorced). PreferedOrderCat Preferred order category of the customer (e.g., Fashion, Grocery, Mobile). SatisfactionScore Satisfaction score given by the customer (1 to 5)." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yulia-samoilovich.github.io/blog/posts/ecommerce-churn-prediction/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-07-20T13:00:38-04:00" />
@@ -81,11 +77,9 @@ SatisfactionScore: Satisfaction score given by the customer (1 to 5)." />
 <meta name="twitter:title" content="Analyzing E-Commerce Customer Behaviour and Churn"/>
 <meta name="twitter:description" content="In this post, I explore and analyze some e-commerce customer data by identifying patterns in customer satisfaction and churn.
 The dataset used for this analysis includes information on customer demographics, purchasing behavior, and satisfaction scores. Key features include:
-CustomerID: Unique identifier for each customer.
-Gender: Gender of the customer (Male/Female).
-MaritalStatus: Marital status of the customer (Married/Single/Divorced).
-PreferedOrderCat: Preferred order category of the customer (e.g., Fashion, Grocery, Mobile).
-SatisfactionScore: Satisfaction score given by the customer (1 to 5)."/>
+CustomerID Unique identifier for each customer. Gender
+Gender of the customer (Male/Female). MaritalStatus
+Marital status of the customer (Married/Single/Divorced). PreferedOrderCat Preferred order category of the customer (e.g., Fashion, Grocery, Mobile). SatisfactionScore Satisfaction score given by the customer (1 to 5)."/>
 
 
 <script type="application/ld+json">
@@ -114,12 +108,12 @@ SatisfactionScore: Satisfaction score given by the customer (1 to 5)."/>
   "@type": "BlogPosting",
   "headline": "Analyzing E-Commerce Customer Behaviour and Churn",
   "name": "Analyzing E-Commerce Customer Behaviour and Churn",
-  "description": "In this post, I explore and analyze some e-commerce customer data by identifying patterns in customer satisfaction and churn.\nThe dataset used for this analysis includes information on customer demographics, purchasing behavior, and satisfaction scores. Key features include:\nCustomerID: Unique identifier for each customer.\nGender: Gender of the customer (Male/Female).\nMaritalStatus: Marital status of the customer (Married/Single/Divorced).\nPreferedOrderCat: Preferred order category of the customer (e.g., Fashion, Grocery, Mobile).\nSatisfactionScore: Satisfaction score given by the customer (1 to 5).",
+  "description": "In this post, I explore and analyze some e-commerce customer data by identifying patterns in customer satisfaction and churn.\nThe dataset used for this analysis includes information on customer demographics, purchasing behavior, and satisfaction scores. Key features include:\nCustomerID Unique identifier for each customer. Gender\nGender of the customer (Male/Female). MaritalStatus\nMarital status of the customer (Married/Single/Divorced). PreferedOrderCat Preferred order category of the customer (e.g., Fashion, Grocery, Mobile). SatisfactionScore Satisfaction score given by the customer (1 to 5).",
   "keywords": [
     
   ],
-  "articleBody": "In this post, I explore and analyze some e-commerce customer data by identifying patterns in customer satisfaction and churn.\nThe dataset used for this analysis includes information on customer demographics, purchasing behavior, and satisfaction scores. Key features include:\nCustomerID: Unique identifier for each customer.\nGender: Gender of the customer (Male/Female).\nMaritalStatus: Marital status of the customer (Married/Single/Divorced).\nPreferedOrderCat: Preferred order category of the customer (e.g., Fashion, Grocery, Mobile).\nSatisfactionScore: Satisfaction score given by the customer (1 to 5).\nComplain: Whether the customer has made a complaint (Yes/No).\nChurn: Whether the customer has churned (0 for no, 1 for yes).\nKey Analyses and Insights Preferred Order Category I analyzed which order categories are most popular among customers\n",
-  "wordCount" : "116",
+  "articleBody": "In this post, I explore and analyze some e-commerce customer data by identifying patterns in customer satisfaction and churn.\nThe dataset used for this analysis includes information on customer demographics, purchasing behavior, and satisfaction scores. Key features include:\nCustomerID Unique identifier for each customer. Gender\nGender of the customer (Male/Female). MaritalStatus\nMarital status of the customer (Married/Single/Divorced). PreferedOrderCat Preferred order category of the customer (e.g., Fashion, Grocery, Mobile). SatisfactionScore Satisfaction score given by the customer (1 to 5). Complain Whether the customer has made a complaint (Yes/No). Churn Whether the customer has churned (0 for no, 1 for yes). Key Analyses and Insights Who are the customers? I start off by getting the gender and marital status distribution and found:\nMale: 3384\nFemale: 2246\nMarried: 2986\nSingle: 1796\nDivorced: 848\nThe customer base is predominantly male, with males making up 60% and females 40% of the total customer population.\nDiscovering Preferred Order Categories I examine customer preferences by analyzing preferred order categories Categories like “Mobile Phone” and “Laptop \u0026 Accessory” have the highest satisfaction scores, indicating that these product categories are highly favored by customers.\nI also explore the relationship between marital status and preferred order categories to understand how different demographic groups shop. General Observations Dominance of Married Customers:\nAcross all product categories, married customers consistently show higher numbers compared to single and divorced customers. This indicates that married individuals might have a higher purchasing power or different shopping needs compared to other groups.\nSingle Customers:\nSingle customers generally follow married customers in numbers, with a considerable gap in categories like Laptop \u0026 Accessory and Mobile.\nDivorced Customers:\nDivorced customers consistently form the smallest group in all categories. This might reflect different shopping habits or economic conditions impacting their purchasing behavior.\n",
+  "wordCount" : "292",
   "inLanguage": "en",
   "datePublished": "2024-07-20T13:00:38-04:00",
   "dateModified": "2024-07-20T13:00:38-04:00",
@@ -196,23 +190,50 @@ SatisfactionScore: Satisfaction score given by the customer (1 to 5)."/>
   </header> 
   <div class="post-content"><p>In this post, I explore and analyze some e-commerce customer data by identifying patterns in customer satisfaction and churn.</p>
 <p>The dataset used for this analysis includes information on customer demographics, purchasing behavior, and satisfaction scores. Key features include:</p>
-<h4 id="customerid">CustomerID:<a hidden class="anchor" aria-hidden="true" href="#customerid">#</a></h4>
-<p>Unique identifier for each customer.</p>
-<h4 id="gender">Gender:<a hidden class="anchor" aria-hidden="true" href="#gender">#</a></h4>
-<p>Gender of the customer (Male/Female).</p>
-<h4 id="maritalstatus">MaritalStatus:<a hidden class="anchor" aria-hidden="true" href="#maritalstatus">#</a></h4>
-<p>Marital status of the customer (Married/Single/Divorced).</p>
-<h4 id="preferedordercat">PreferedOrderCat:<a hidden class="anchor" aria-hidden="true" href="#preferedordercat">#</a></h4>
-<p>Preferred order category of the customer (e.g., Fashion, Grocery, Mobile).</p>
-<h4 id="satisfactionscore">SatisfactionScore:<a hidden class="anchor" aria-hidden="true" href="#satisfactionscore">#</a></h4>
-<p>Satisfaction score given by the customer (1 to 5).</p>
-<h4 id="complain">Complain:<a hidden class="anchor" aria-hidden="true" href="#complain">#</a></h4>
-<p>Whether the customer has made a complaint (Yes/No).</p>
-<h4 id="churn">Churn:<a hidden class="anchor" aria-hidden="true" href="#churn">#</a></h4>
-<p>Whether the customer has churned (0 for no, 1 for yes).</p>
+<ul>
+<li>CustomerID  <br>
+Unique identifier for each customer.</li>
+<li>Gender<br>
+Gender of the customer (Male/Female).</li>
+<li>MaritalStatus<br>
+Marital status of the customer (Married/Single/Divorced).</li>
+<li>PreferedOrderCat <br>
+Preferred order category of the customer (e.g., Fashion, Grocery, Mobile).</li>
+<li>SatisfactionScore <br>
+Satisfaction score given by the customer (1 to 5).</li>
+<li>Complain <br>
+Whether the customer has made a complaint (Yes/No).</li>
+<li>Churn <br>
+Whether the customer has churned (0 for no, 1 for yes).</li>
+</ul>
 <h2 id="key-analyses-and-insights">Key Analyses and Insights<a hidden class="anchor" aria-hidden="true" href="#key-analyses-and-insights">#</a></h2>
-<h3 id="preferred-order-category">Preferred Order Category<a hidden class="anchor" aria-hidden="true" href="#preferred-order-category">#</a></h3>
-<p>I analyzed which order categories are most popular among customers</p>
+<h3 id="who-are-the-customers">Who are the customers?<a hidden class="anchor" aria-hidden="true" href="#who-are-the-customers">#</a></h3>
+<p>I start off by getting the gender and marital status distribution and found:<br>
+Male: 3384<br>
+Female: 2246</p>
+<p><img loading="lazy" src="./gender-count.png" alt="Gender count"  />
+</p>
+<p>Married: 2986<br>
+Single: 1796<br>
+Divorced: 848<br>
+<img loading="lazy" src="./marital-status-count.png" alt="Marital status count"  />
+</p>
+<p>The customer base is predominantly male, with males making up 60% and females 40% of the total customer population.</p>
+<h3 id="discovering-preferred-order-categories">Discovering Preferred Order Categories<a hidden class="anchor" aria-hidden="true" href="#discovering-preferred-order-categories">#</a></h3>
+<p>I examine customer preferences by analyzing preferred order categories
+<img loading="lazy" src="./product-pop-score.png" alt="Product popularity"  />
+</p>
+<p>Categories like &ldquo;Mobile Phone&rdquo; and &ldquo;Laptop &amp; Accessory&rdquo; have the highest satisfaction scores, indicating that these product categories are highly favored by customers.</p>
+<p>I also explore the relationship between marital status and preferred order categories to understand how different demographic groups shop.
+<img loading="lazy" src="./marital-status-category.png" alt="Product popularity by marital status"  />
+</p>
+<h3 id="general-observations">General Observations<a hidden class="anchor" aria-hidden="true" href="#general-observations">#</a></h3>
+<p>Dominance of Married Customers:<br>
+Across all product categories, married customers consistently show higher numbers compared to single and divorced customers. This indicates that married individuals might have a higher purchasing power or different shopping needs compared to other groups.</p>
+<p>Single Customers:<br>
+Single customers generally follow married customers in numbers, with a considerable gap in categories like Laptop &amp; Accessory and Mobile.</p>
+<p>Divorced Customers:<br>
+Divorced customers consistently form the smallest group in all categories. This might reflect different shopping habits or economic conditions impacting their purchasing behavior.</p>
 
 
   </div>
