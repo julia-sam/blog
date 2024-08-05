@@ -29,12 +29,13 @@ I start off by getting the gender and marital status distribution and found:
 Male: 3384  
 Female: 2246
 
-![Gender count](./gender-count.png)
+{{< resizeimg src="./gender-count.png" alt="Gender count" width="450" >}}
 
 Married: 2986  
 Single: 1796  
 Divorced: 848  
-![Marital status count](./marital-status-count.png)
+
+{{< resizeimg src="./marital-status-count.png" alt="Marital status count" width="450" >}}
 
 The customer base is predominantly male, with males making up 60% and females 40% of the total customer population.
 

@@ -61,6 +61,23 @@ Marital status of the customer (Married/Single/Divorced). PreferedOrderCat Prefe
     </style>
 </noscript>
   
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-T41YJNZVHX"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-T41YJNZVHX');
+        }
+      </script>
+    
+  
 
 <meta property="og:title" content="Analyzing E-Commerce Customer Behaviour and Churn" />
 <meta property="og:description" content="In this post, I explore and analyze some e-commerce customer data by identifying patterns in customer satisfaction and churn.
@@ -211,13 +228,13 @@ Whether the customer has churned (0 for no, 1 for yes).</li>
 <p>I start off by getting the gender and marital status distribution and found:<br>
 Male: 3384<br>
 Female: 2246</p>
-<p><img loading="lazy" src="./gender-count.png" alt="Gender count"  />
-</p>
+<img src="./gender-count.png" alt="Gender count" width="450">
+
 <p>Married: 2986<br>
 Single: 1796<br>
-Divorced: 848<br>
-<img loading="lazy" src="./marital-status-count.png" alt="Marital status count"  />
-</p>
+Divorced: 848</p>
+<img src="./marital-status-count.png" alt="Marital status count" width="450">
+
 <p>The customer base is predominantly male, with males making up 60% and females 40% of the total customer population.</p>
 <h3 id="discovering-preferred-order-categories">Discovering Preferred Order Categories<a hidden class="anchor" aria-hidden="true" href="#discovering-preferred-order-categories">#</a></h3>
 <p>I examine customer preferences by analyzing preferred order categories
