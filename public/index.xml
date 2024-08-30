@@ -6,8 +6,15 @@
     <description>Recent content on Programming Polyglot - Julia&#39;s Blog</description>
     <generator>Hugo -- 0.126.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jul 2024 13:00:38 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2024 21:01:16 -0400</lastBuildDate>
     <atom:link href="https://julia-sam.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comparing &#34;Internet&#34; Usage Across Languages</title>
+      <link>https://julia-sam.github.io/blog/posts/chart-challenge-1/</link>
+      <pubDate>Wed, 28 Aug 2024 21:01:16 -0400</pubDate>
+      <guid>https://julia-sam.github.io/blog/posts/chart-challenge-1/</guid>
+      <description>Language can tell us a lot about societal trends, technological advances, and cultural shifts. Tools like Google Ngrams have provided a way to see these trends and explore the frequency of words and phrases across centuries of literature. Inspired by this, I wanted to explore something similar but across multiple languages and then be able to visualize it. I found an Ngrams API (based off of Google Ngrams) and created some interesting charts across English, German, and Russian.</description>
+    </item>
     <item>
       <title>Analyzing E-Commerce Customer Behaviour and Churn</title>
       <link>https://julia-sam.github.io/blog/posts/ecommerce-churn-prediction/</link>

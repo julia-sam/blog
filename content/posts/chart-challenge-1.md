@@ -1,7 +1,7 @@
 +++
 title = 'Comparing "Internet" Usage Across Languages'
 date = 2024-08-28T21:01:16-04:00
-draft = true
+draft = false
 +++
 
 ![Retro Computer](./computer-old.jpeg)
