@@ -6,7 +6,9 @@ draft = false
 
 ![Retro Computer](./computer-old.jpeg)
 
-Language can tell us a lot about societal trends, technological advances, and cultural shifts. Tools like [Google Ngrams](https://books.google.com/ngrams/) have provided a way to see these trends and explore the frequency of words and phrases across centuries of literature. Inspired by this, I wanted to explore something similar but across multiple languages and then be able to visualize it. I found an Ngrams API (based off of Google Ngrams) and created some interesting charts across English, German, and Russian.
+Language can tell us a lot about societal trends, technological advances, and cultural shifts. Tools like [Google Ngrams](https://books.google.com/ngrams/) have provided a way to see these trends and explore the frequency of words and phrases across centuries of literature. 
+
+Inspired by this, I wanted to explore something similar but across multiple languages and then be able to visualize it. I found an Ngrams API (based off of Google Ngrams) and created some charts across English, German, and Russian.
 
 I started off by exploring some historical trends of the term "internet" across languages using charts which revealed some interesting insights.
 
