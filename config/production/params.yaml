@@ -1,6 +1,6 @@
 params:
   environment: "production"
-  baseURL: https://yulia-samoilovich.github.io/blog/
+  baseURL: https://julia-sam.github.io/blog/
 
 services:
   googleAnalytics:

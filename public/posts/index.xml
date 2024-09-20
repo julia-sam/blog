@@ -6,14 +6,24 @@
     <description>Recent content in Posts on Programming Polyglot - Julia&#39;s Blog</description>
     <generator>Hugo -- 0.126.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Aug 2024 21:01:16 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 17 Sep 2024 20:55:37 -0400</lastBuildDate>
     <atom:link href="https://julia-sam.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GDP vs Life Satisfaction</title>
+      <link>https://julia-sam.github.io/blog/posts/gdp-vs-life-satisfaction/</link>
+      <pubDate>Tue, 17 Sep 2024 20:55:37 -0400</pubDate>
+      <guid>https://julia-sam.github.io/blog/posts/gdp-vs-life-satisfaction/</guid>
+      <description>In this post, I explore the relationship between Gross Domestic Product (GDP) and life satisfaction across various countries, using data from the OECD.
+The life satisfaction index is based on survey data, where respondents rate their satisfaction on a scale of 1 to 10, while GDP per capita is a measure of economic output per person.
+Both values were standardized for comparison, which allows to visualize the relationship between these two key metrics on the same scale, ranging from 0 to 1.</description>
+    </item>
     <item>
       <title>Comparing &#34;Internet&#34; Usage Across Languages</title>
       <link>https://julia-sam.github.io/blog/posts/chart-challenge-1/</link>
       <pubDate>Wed, 28 Aug 2024 21:01:16 -0400</pubDate>
       <guid>https://julia-sam.github.io/blog/posts/chart-challenge-1/</guid>
-      <description>Language can tell us a lot about societal trends, technological advances, and cultural shifts. Tools like Google Ngrams have provided a way to see these trends and explore the frequency of words and phrases across centuries of literature. Inspired by this, I wanted to explore something similar but across multiple languages and then be able to visualize it. I found an Ngrams API (based off of Google Ngrams) and created some interesting charts across English, German, and Russian.</description>
+      <description>Language can tell us a lot about societal trends, technological advances, and cultural shifts. Tools like Google Ngrams have provided a way to see these trends and explore the frequency of words and phrases across centuries of literature.
+Inspired by this, I wanted to explore something similar but across multiple languages and then be able to visualize it. I found an Ngrams API (based off of Google Ngrams) and created some charts across English, German, and Russian.</description>
     </item>
     <item>
       <title>Analyzing E-Commerce Customer Behaviour and Churn</title>

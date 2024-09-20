@@ -3,3 +3,8 @@ languageCode: en-us
 title: Programming Polyglot - Julia's Blog
 theme: PaperMod
 googleAnalytics: G-T41YJNZVHX
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
